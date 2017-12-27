@@ -1,3 +1,5 @@
 body{
-    padding: 10px;
+    padding: 25px;
+    margin: 10px;
+    columns: 300px 2;
 }
