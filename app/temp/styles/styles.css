@@ -665,14 +665,14 @@ a {
 
 .page-section{
     
-    padding: 1.2rem 0;    
+    padding: 1.2rem 0;
     
 }
 
 @media (min-width: 800px){
 
 .page-section{
-    padding: 4.5rem 0    
+    padding: 4.5rem 0
     
 }
     }
@@ -680,10 +680,6 @@ a {
 .page-section--blue {
     background-color: #2f5572;
     color: #FFF;
-    }
-
-.page-section__icon{
-        margin-right: .5rem;
     }
 
 .row::after {
@@ -784,18 +780,42 @@ a {
     }
 
 .feature-item{
-    padding-left: 94px;
     position: relative;
     padding-bottom: 2.5rem;
 }
 
+@media(min-width: 530px){
+
+.feature-item{
+    padding-left: 94px
+}
+    }
+
+.feature-item__icon {
+        display: block;
+        margin: 0 auto;
+    }
+
+@media(min-width: 530px){
+
 .feature-item__icon {
         position: absolute;
-        left: 0;
+        left: 0
+    }
     }
 
 .feature-item__title{
-        font-size: 1.875rem;
         font-weight: 300;
         margin-bottom: .8rem;
+        margin-top: 0.7em;
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+@media(min-width: 530px){
+
+.feature-item__title{
+        text-align: left;
+        font-size: 1.875rem
+    }
     }
